@@ -27,7 +27,6 @@ jobs:
     - run: npm install
     - run: npm run build --if-present
     
-    - name: Docker push and build
     - uses: mr-smithers-excellent/docker-build-push@v5
       with:
         image: tjxtan/examplereactapp
