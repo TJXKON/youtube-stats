@@ -6,7 +6,7 @@ services:
   - docker
 
 before_install:
-  - docker build -t tjxtan/examplereactapp -f Dockerfile.dev .
+  - docker build -t tjxtan/examplereactapp -f Dockerfile .
 
 script:
 
